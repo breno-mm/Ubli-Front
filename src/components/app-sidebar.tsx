@@ -69,21 +69,21 @@ const data = {
       ],
     },
     {
-      title: "Sem ideia do que seja aqui",
+      title: "Ajuda",
       url: "#",
       icon: Bot,
       items: [
         {
-          title: "Menu 1",
+          title: "Reportar Problema",
           url: "#",
         },
         {
-          title: "Menu 2",
+          title: "Contato",
           url: "#",
         },
         {
-          title: "Menu 3",
-          url: "#",
+          title: "Política de privacidade",
+          url: "http://localhost:5173/politica-de-privacidade",
         },
       ],
     },
@@ -93,19 +93,11 @@ const data = {
       icon: BookOpen,
       items: [
         {
-          title: "Introduction",
+          title: "Introdução",
           url: "#",
         },
         {
-          title: "Get Started",
-          url: "#",
-        },
-        {
-          title: "Tutorials",
-          url: "#",
-        },
-        {
-          title: "Changelog",
+          title: "Tutoriais",
           url: "#",
         },
       ],
@@ -114,24 +106,6 @@ const data = {
       title: "Configurações",
       url: "#",
       icon: Settings2,
-      items: [
-        {
-          title: "General",
-          url: "#",
-        },
-        {
-          title: "Team",
-          url: "#",
-        },
-        {
-          title: "Billing",
-          url: "#",
-        },
-        {
-          title: "Limits",
-          url: "#",
-        },
-      ],
     },
   ],
   projects: [

@@ -11,7 +11,7 @@ export default function Header() {
           />
           <button
             type="submit"
-            className="bg-blue-700 hover:bg-blue-600 px-4 py-2 rounded-r-md"
+            className="bg-blue-700 first-letter:blur-x4 hover:bg-blue-600 px-4 py-2 rounded-r-md"
           >
             Buscar
           </button>

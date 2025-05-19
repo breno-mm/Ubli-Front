@@ -1,16 +1,15 @@
 import { AppSidebar } from "@/components/app-sidebar";
+import PoliticaPrivacidade from "@/components/politica-privacidade";
 import {} from "@/components/ui/breadcrumb";
-
 import { SidebarInset, SidebarProvider } from "@/components/ui/sidebar";
-import GoMap from "../components/maps/GoMap";
 
-export default function Home() {
+export default function PoliticaDePrivacidade() {
   return (
     <>
       <SidebarProvider>
         <AppSidebar />
         <SidebarInset>
-          <GoMap />
+          <PoliticaPrivacidade />
         </SidebarInset>
       </SidebarProvider>
     </>
